@@ -1,0 +1,66 @@
+﻿
+.menu {
+    width: 200px;
+    float: left;
+    background-color: #011239;
+    height: 100vh;
+    color: #fff;
+}
+
+    .menu .logo-header {
+        height: 50px;
+        display: flex;
+        cursor: pointer;
+        padding-left:20px;
+    }
+
+        .menu .logo-header .logo {
+            height: 100%;
+            width: 150px;
+            background-image: url('/asset/img/logo.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .menu .logo-header .app-name {
+        }
+
+    .menu .app-name .top-name {
+        font-size: 13px;
+    }
+
+    .menu .app-name .bottom-name {
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+    .menu .logo-header .toggle-button {
+        width: 50px;
+        height: 50px;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 50px;
+        background-image: url('/asset/icons/ic_sprites.svg');
+    }
+
+    .menu .menu-item {
+        height: 46px;
+        display: flex;
+        align-items: center;
+        border-left: 4px solid #19A7F3;
+        background-color: #293A62;
+        cursor:pointer;
+    }
+        .menu .menu-item .menu-item-icon {
+            background-image: url(/asset/icons/ic_sprites.svg);
+            background-color: transparent;
+            background-repeat: no-repeat;
+            width: 46px;
+            display: inline-block;
+            height: 46px;
+        }
+
+    .menu .menu-item-icon.menu-icon-dashboard {
+        background-position: -95px -53px;
+    }

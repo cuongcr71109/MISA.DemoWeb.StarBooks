@@ -1,0 +1,34 @@
+﻿
+
+.content {
+    height: 100vh;
+    background-color: #F2F2F2;
+    flex: 1;
+    min-height: 0;
+    min-width: 0;
+    float:left;
+    width:calc(100% - 200px);
+}
+
+.main-header {
+    background: #fff;
+    height: 50px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.main-body {
+    padding: 0px 20px 16px 20px;
+}
+
+    .main-body .content-title {
+        height: 70px;
+        position: relative;
+        padding: 12px 20px 12px 3px;
+        font-size: 24px;
+        line-height: 50px;
+        color: #454F63;
+    }
+
+main-body .content-container {
+    display: flex;
+}

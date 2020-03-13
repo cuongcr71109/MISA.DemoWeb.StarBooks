@@ -1,0 +1,16 @@
+﻿
+.grid {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+    .grid table {
+        border-collapse: collapse;
+    }
+
+        .grid table thead {
+            background-color: #ccc
+        }
+        table th, td{
+            padding:6px;
+        }

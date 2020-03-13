@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>999af900-b90c-4756-9299-2252b1ac30ef</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\asset\icons\" />
+    <Folder Include="wwwroot\asset\fonts\" />
+    <Folder Include="wwwroot\css\layout\" />
+    <Folder Include="wwwroot\css\common\" />
+    <Folder Include="wwwroot\js\base\" />
+    <Folder Include="wwwroot\pages\tax\" />
+    <Folder Include="wwwroot\pages\stock\" />
+    <Folder Include="wwwroot\vendor-extend\" />
+  </ItemGroup>
+
+
+</Project>
